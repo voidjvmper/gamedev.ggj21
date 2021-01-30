@@ -7,17 +7,18 @@ public class HoldItem : Interactable
     private Transform originalParent;
     private Rigidbody rgbody = null;
     // Start is called before the first frame update
-    void Start()
+    protected override void Start()
     {
+        base.Start();
         SetKeyCode(Settings.KEYCODE_HOLD);
         originalParent = gameObject.transform.parent;
         rgbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
-        
+        base.Update();
     }
 
     public override void OnKeyDown()
@@ -33,6 +34,7 @@ public class HoldItem : Interactable
     public override void BeginInteraction()
     {
         base.BeginInteraction();
+        character.SetCurrentInteractable(this);
         gameObject.transform.parent = character.HoldAnchor;
         if (rgbody != null)
         {
@@ -50,7 +52,9 @@ public class HoldItem : Interactable
             rgbody.useGravity = true;
             rgbody.isKinematic = false;
         }
+        character.ClearCurrentInteractable(this);
     }
 
 
+    
 }
