@@ -6,7 +6,8 @@ public class Character : MonoBehaviour
 {
     [SerializeField] private Transform holdAnchor;
     [SerializeField] private Camera playerCamera;
-    Interactable nearestInteractable = null;
+    private Interactable nearestInteractable = null;
+    private Interactable currentInteractable = null;
     // Start is called before the first frame update
     void Start()
     {
@@ -42,25 +43,34 @@ public class Character : MonoBehaviour
         }
     }
 
+    private void HandleInteractable(Interactable pInteractable)
+    {
+        if (Input.GetKeyDown(pInteractable.KeyCode))
+        {
+            pInteractable.OnKeyDown();
+        }
+
+        if (Input.GetKey(pInteractable.KeyCode))
+        {
+            pInteractable.OnKeyHold();
+        }
+
+        if (Input.GetKeyUp(pInteractable.KeyCode))
+        {
+            pInteractable.OnKeyUp();
+        }
+    }
+
     private void HandleInput()
     {
-        if (nearestInteractable != null)
+        if (nearestInteractable != null && currentInteractable == null)
         {
-            if (Input.GetKeyDown(nearestInteractable.KeyCode))
-            {
-                nearestInteractable.OnKeyDown();
-            }
+            HandleInteractable(nearestInteractable);
+        }
 
-            if (Input.GetKey(nearestInteractable.KeyCode))
-            {
-                nearestInteractable.OnKeyHold();
-            }
-
-            if (Input.GetKeyUp(nearestInteractable.KeyCode))
-            {
-                nearestInteractable.OnKeyUp();
-            }
-
+        else if (currentInteractable != null)
+        {
+            HandleInteractable(currentInteractable);
         }
      
     }
@@ -69,4 +79,23 @@ public class Character : MonoBehaviour
     {
         get { return holdAnchor; }
     }
+
+    public void SetCurrentInteractable(Interactable pInteractable)
+    {
+        if (currentInteractable == null)
+        {
+            currentInteractable = pInteractable;
+
+        }
+       
+    }
+
+    public void ClearCurrentInteractable(Interactable pInteractable)
+    {
+        if (pInteractable == currentInteractable)
+        {
+            currentInteractable = null;
+        }
+    }
+
 }

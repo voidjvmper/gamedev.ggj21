@@ -34,6 +34,7 @@ public class HoldItem : Interactable
     public override void BeginInteraction()
     {
         base.BeginInteraction();
+        character.SetCurrentInteractable(this);
         gameObject.transform.parent = character.HoldAnchor;
         if (rgbody != null)
         {
@@ -51,6 +52,7 @@ public class HoldItem : Interactable
             rgbody.useGravity = true;
             rgbody.isKinematic = false;
         }
+        character.ClearCurrentInteractable(this);
     }
 
 
