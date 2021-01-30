@@ -13,8 +13,13 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 637476202299912697
     m_Hash: 3175166316
+=======
+      ticks: 637476171327007169
+    m_Hash: 3595124353
+>>>>>>> main
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
