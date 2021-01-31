@@ -15,11 +15,35 @@ G:/root/local-dir/voidjumper/gamedev.ggj21/Lost-and-Found
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 61806
 Successfully changed project path to: G:/root/local-dir/voidjumper/gamedev.ggj21/Lost-and-Found
 G:/root/local-dir/voidjumper/gamedev.ggj21/Lost-and-Found
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 99.69 ms, found 0 plugins.
+=======
+<<<<<<< HEAD
+52258
+Successfully changed project path to: E:/Creative/Game Jam/2021/gamedev.ggj21/Lost-and-Found
+E:/Creative/Game Jam/2021/gamedev.ggj21/Lost-and-Found
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 112.80 ms, found 0 plugins.
+=======
+<<<<<<< HEAD
+57778
+Successfully changed project path to: G:/root/local-dir/voidjumper/gamedev.ggj21/Lost-and-Found
+G:/root/local-dir/voidjumper/gamedev.ggj21/Lost-and-Found
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 103.90 ms, found 0 plugins.
+=======
+53282
+Successfully changed project path to: E:/Creative/Game Jam/2021/gamedev.ggj21/Lost-and-Found
+E:/Creative/Game Jam/2021/gamedev.ggj21/Lost-and-Found
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 130.62 ms, found 0 plugins.
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path D:/Data Portal/C Program Files/Unity/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
@@ -40,19 +64,65 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Data Portal/C Program Files/Unity/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Data Portal/C Program Files/Unity/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.001690 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 110.29 ms, found 0 plugins.
+=======
+Registered in 0.001874 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 102.98 ms, found 0 plugins.
+=======
+Mono path[0] = 'D:/Software/Unity/Unity Hub/2020.2.2f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Software/Unity/Unity Hub/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Software/Unity/Unity Hub/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Software/Unity/Unity Hub/2020.2.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Software/Unity/Unity Hub/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001409 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+<<<<<<< HEAD
+Refreshing native plugins compatible for Editor in 183.05 ms, found 0 plugins.
+=======
+Refreshing native plugins compatible for Editor in 93.01 ms, found 0 plugins.
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  1.794 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 Registered in 0.001657 seconds.
+=======
+<<<<<<< HEAD
+- Completed reload, in  1.767 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002205 seconds.
+=======
+<<<<<<< HEAD
+- Completed reload, in  1.653 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001973 seconds.
+=======
+- Completed reload, in  1.389 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001571 seconds.
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
 Begin MonoManager ReloadAssembly
 Symbol file data-000002B5F7F4F020 doesn't match image G:\root\local-dir\voidjumper\gamedev.ggj21\Lost-and-Found\Library\ScriptAssemblies\Unity.VisualEffectGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
@@ -104,12 +174,25 @@ Symbol file data-000002B5FC5B6E20 doesn't match image G:\root\local-dir\voidjump
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 99.89 ms, found 0 plugins.
+=======
+<<<<<<< HEAD
+Refreshing native plugins compatible for Editor in 95.59 ms, found 0 plugins.
+=======
+<<<<<<< HEAD
+Refreshing native plugins compatible for Editor in 90.48 ms, found 0 plugins.
+=======
+Refreshing native plugins compatible for Editor in 237.81 ms, found 0 plugins.
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  1.744 seconds
 Platform modules already initialized, skipping
 ========================================================================
@@ -123,6 +206,43 @@ System memory in use after: 170.1 MB.
 
 Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 3939.
 Total: 10.939800 ms (FindLiveObjects: 1.535400 ms CreateObjectMapping: 0.463000 ms MarkObjects: 5.533100 ms  DeleteObjects: 3.404500 ms)
+=======
+<<<<<<< HEAD
+- Completed reload, in  1.651 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+=======
+<<<<<<< HEAD
+- Completed reload, in  1.652 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 0 plugins.
+=======
+- Completed reload, in  4.495 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
+>>>>>>> main
+>>>>>>> main
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 170.5 MB.
+System memory in use after: 167.9 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3922.
+<<<<<<< HEAD
+Total: 6.424000 ms (FindLiveObjects: 0.435900 ms CreateObjectMapping: 0.341900 ms MarkObjects: 3.037200 ms  DeleteObjects: 2.607200 ms)
+=======
+<<<<<<< HEAD
+Total: 10.420500 ms (FindLiveObjects: 0.548600 ms CreateObjectMapping: 0.143900 ms MarkObjects: 5.689700 ms  DeleteObjects: 4.034500 ms)
+>>>>>>> main
 
 ========================================================================
 Received Import Request.
@@ -8781,6 +8901,7 @@ Total: 13.298600 ms (FindLiveObjects: 1.869900 ms CreateObjectMapping: 0.384400 
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 248.074391 seconds.
   path: Assets/Resources/Images/2DnUI/ChevronCrosshair.png
   artifactKey: Guid(552efed5811fc1e428b64e3686565655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -8882,6 +9003,62 @@ System memory in use after: 189.2 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 8770.
 Total: 11.881000 ms (FindLiveObjects: 1.012900 ms CreateObjectMapping: 0.178700 ms MarkObjects: 7.982500 ms  DeleteObjects: 2.705200 ms)
+=======
+  Time since last request: 54.597671 seconds.
+  path: Assets/Prefabs/Humanoid Sitting.prefab
+  artifactKey: Guid(7f1491325dc4f244f892fcb76531db00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Humanoid Sitting.prefab using Guid(7f1491325dc4f244f892fcb76531db00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f95f0221b3df7c1aada4c97441daf1') in 1.121704 seconds
+  Import took 1.139256 seconds .
+=======
+Total: 4.637500 ms (FindLiveObjects: 0.457900 ms CreateObjectMapping: 0.219200 ms MarkObjects: 1.991800 ms  DeleteObjects: 1.967100 ms)
+>>>>>>> main
+
+========================================================================
+Received Import Request.
+  path: Assets/Models/Archway_001.fbx
+  artifactKey: Guid(8705d42e27ca3f744a3cf89a255f97f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Archway_001.fbx using Guid(8705d42e27ca3f744a3cf89a255f97f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c771a023b5d8674598d243599e832a') in 1.745076 seconds
+  Import took 1.754755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Models/Candle_Holder_001.fbx
+  artifactKey: Guid(3c1d9515d0deecd47b0ba5f2d441ad70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Candle_Holder_001.fbx using Guid(3c1d9515d0deecd47b0ba5f2d441ad70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75dcabc1a083693f222bd805f6d8fcfb') in 0.146555 seconds
+  Import took 0.161948 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.048579 seconds.
+  path: Assets/Models/Candle_Holder_001.fbx
+  artifactKey: Guid(3c1d9515d0deecd47b0ba5f2d441ad70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Candle_Holder_001.fbx using Guid(3c1d9515d0deecd47b0ba5f2d441ad70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75dcabc1a083693f222bd805f6d8fcfb') in 0.185260 seconds
+  Import took 0.202602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 94.149984 seconds.
+  path: Assets/Textures/Colour Textures/TestBlack.mat
+  artifactKey: Guid(487a2fa9ed186e54ca054ff186f52029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Colour Textures/TestBlack.mat using Guid(487a2fa9ed186e54ca054ff186f52029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fade19baa2370abfd068281589d11f49') in 0.109971 seconds
+  Import took 0.118498 seconds .
+
+========================================================================
+Received Import Request.
+<<<<<<< HEAD
+  Time since last request: 106.858362 seconds.
+  path: Assets/Textures/Colour Textures/TestBlack.mat
+  artifactKey: Guid(487a2fa9ed186e54ca054ff186f52029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Colour Textures/TestBlack.mat using Guid(487a2fa9ed186e54ca054ff186f52029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8173b3882cc1226bc4dacd09029c491') in 0.080960 seconds
+  Import took 0.104849 seconds .
+=======
+  Time since last request: 0.000212 seconds.
+  path: Assets/Models/PC_Monitor_001.fbx
+  artifactKey: Guid(ec8166b543d7d1944805684edfae947c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/PC_Monitor_001.fbx using Guid(ec8166b543d7d1944805684edfae947c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c3a0114ba701ba18cb35db59222ddf') in 0.098328 seconds
+  Import took 0.104226 seconds .
+>>>>>>> main
 
 ========================================================================
 Received Prepare
@@ -9253,10 +9430,20 @@ Total: 11.769500 ms (FindLiveObjects: 1.132500 ms CreateObjectMapping: 0.154800 
 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 207.352681 seconds.
   path: Assets/Prefabs/Candle.prefab
   artifactKey: Guid(47556a5eacd5b434cbe163dea1409ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Candle.prefab using Guid(47556a5eacd5b434cbe163dea1409ccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd359ee7e8664c561264831a4e381de65') in 0.587290 seconds
   Import took 0.594583 seconds .
+=======
+  Time since last request: 7341.761250 seconds.
+  path: Assets/Textures/Colour Textures/Main Black.mat
+  artifactKey: Guid(4abb2bdb9f5e01243bfb122a7296c58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Colour Textures/Main Black.mat using Guid(4abb2bdb9f5e01243bfb122a7296c58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b068184504d438a2b881f5d94c5607') in 0.543213 seconds
+  Import took 0.612075 seconds .
+>>>>>>> main
+>>>>>>> main
+>>>>>>> main
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
