@@ -12,17 +12,18 @@ public class LightMaterial : TriggerVolume
     private bool litState = false;
     private MeshRenderer meshRenderer;
     // Start is called before the first frame update
-    void Start()
+    protected override void Start()
     {
+        base.Start();
         litState = shouldStartOn;
         meshRenderer = objectToLightUp.GetComponent<MeshRenderer>();
         FlipMaterial();
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
-        
+        base.Update();
     }
 
     private void FlipMaterial()

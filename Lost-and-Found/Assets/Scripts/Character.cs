@@ -33,7 +33,7 @@ public class Character : MonoBehaviour
         
         if (Physics.Raycast(playerCamera.transform.position, playerCamera.transform.forward, out hit, Settings.VAL_CHAR_INTERACT_MAX_DISTANCE))
         {
-            Debug.Log("Hit an object!");
+           // Debug.Log("Hit an object!");
             nearestInteractable = hit.transform.gameObject.GetComponent<Interactable>();
             if (nearestInteractable != null)
             {
