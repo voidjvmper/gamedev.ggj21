@@ -16,15 +16,15 @@ public class TriggerVolume : MonoBehaviour
         
     }
 
-    public virtual void EnterTriggerVolume()
+    public virtual void EnterTriggerVolume(Interactable pInteractable)
     {
         return;
     }
-    public virtual void StayTriggerVolume()
+    public virtual void StayTriggerVolume(Interactable pInteractable)
     {
         return;
     }
-    public virtual void ExitTriggerVolume()
+    public virtual void ExitTriggerVolume(Interactable pInteractable)
     {
         return;
     }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1873555011192841893}
   - component: {fileID: 6040490251556991169}
   - component: {fileID: 4410054370121049646}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Keyboard
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5561349426305759274, guid: dec74f6df0483db4a8e73410d04e7631, type: 3}
+  - {fileID: 2100000, guid: 06813737a4a2d9147aef1b1a80624ad3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

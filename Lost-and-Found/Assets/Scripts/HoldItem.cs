@@ -4,13 +4,22 @@ using UnityEngine;
 
 public class HoldItem : Interactable
 {
+    
+
     private Transform originalParent;
-    private Rigidbody rgbody = null;
+    protected Rigidbody rgbody = null;
     // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
+
+        keyToPress = Settings.STR_KEYCODE_HOLD_OVRRDE;
+        keyToDo = Settings.STR_KEYCODE_HOLD_ACTION_OVRRDE;
+
         SetKeyCode(Settings.KEYCODE_HOLD);
+
+        icon = Resources.Load<Sprite>(Settings.PATH_CROSSHAIR_CIRCLE);
+
         originalParent = gameObject.transform.parent;
         rgbody = GetComponent<Rigidbody>();
     }

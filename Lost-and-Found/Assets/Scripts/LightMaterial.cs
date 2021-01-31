@@ -32,20 +32,20 @@ public class LightMaterial : TriggerVolume
 
     }
 
-    public override void EnterTriggerVolume()
+    public override void EnterTriggerVolume(Interactable pInteractable)
     {
-        base.EnterTriggerVolume();
+        base.EnterTriggerVolume(pInteractable);
         litState = !litState;
         FlipMaterial();
     }
-    public override void StayTriggerVolume()
+    public override void StayTriggerVolume(Interactable pInteractable)
     {
-        base.StayTriggerVolume();
+        base.StayTriggerVolume(pInteractable);
         return;
     }
-    public override void ExitTriggerVolume()
+    public override void ExitTriggerVolume(Interactable pInteractable)
     {
-        base.ExitTriggerVolume();
+        base.ExitTriggerVolume(pInteractable);
         litState = !litState;
         FlipMaterial();
     }

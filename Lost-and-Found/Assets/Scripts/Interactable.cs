@@ -2,10 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.UI;
 
 public class Interactable : MonoBehaviour
 {
+    
+    protected Sprite icon;
     public enum QuestProgressorPoint { BEGIN, CONTINUE, END };
+
+    protected string keyToPress = Settings.STR_INTERACT_KEYBIND;
+    protected string keyToDo = Settings.STR_INTERACT_TODO;
 
     protected Character character = null;
     protected InteractableDataPackage dataPackage = null;
@@ -26,7 +32,7 @@ public class Interactable : MonoBehaviour
     // Start is called before the first frame update
     protected virtual void Start()
     {
-        
+        icon = Resources.Load<Sprite>(Settings.PATH_CROSSHAIR_DEFAULT);
     }
 
     public void SendDataPackage(InteractableDataPackage pDataPackage)
@@ -105,4 +111,18 @@ public class Interactable : MonoBehaviour
         get { return keycode; }
     }
 
+    public string KeyCodeOverrideString
+    {
+        get { return keyToPress; }
+    }
+
+    public string KeyActionOverrideString
+    {
+        get { return keyToDo; }
+    }
+
+    public Sprite SpriteIcon
+    {
+        get { return icon; }
+    }
 }

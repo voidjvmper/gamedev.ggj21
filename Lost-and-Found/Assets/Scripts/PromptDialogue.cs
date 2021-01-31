@@ -7,17 +7,23 @@ using TMPro;
 public class PromptDialogue : Interactable
 {
     [SerializeField] private string dialogueString;
-    private string outputString = "";
+    
     [SerializeField]
     private TextMeshProUGUI textMesh;
     private float textCountdown = float.MaxValue;
-    private float timer = 0.0f;
+  
     private bool isTextUp = false;
     // Start is called before the first frame update
     protected override void Start()
     {
         base.Start();
+        keyToPress = Settings.STR_KEYCODE_INTERACT_OVRRDE;
+        keyToDo = Settings.STR_KEYCODE_HOLD_SPEECH_OVRRDE;
+
         SetKeyCode(Settings.KEYCODE_INTERACT);
+
+        icon = Resources.Load<Sprite>(Settings.PATH_CROSSHAIR_SPEECH);
+
         textCountdown = Settings.VAL_TIME_TO_FADE_DIALOGUE;
         textMesh.text = string.Empty;
     }
@@ -97,7 +103,7 @@ public class PromptDialogue : Interactable
     {
         textMesh.text = string.Empty;
         isTextUp = false;
-        timer = 0.0f;
+        
     }
 
     private string GetRepeatedText(string pString, int pIterations)
