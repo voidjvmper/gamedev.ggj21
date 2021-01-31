@@ -48,7 +48,7 @@ public class HoldItem : Interactable
         if (rgbody != null)
         {
             rgbody.useGravity = false;
-            rgbody.isKinematic = true;
+            
         }
     }
 
@@ -59,7 +59,7 @@ public class HoldItem : Interactable
         if (rgbody != null)
         {
             rgbody.useGravity = true;
-            rgbody.isKinematic = false;
+           
         }
         character.ClearCurrentInteractable(this);
     }

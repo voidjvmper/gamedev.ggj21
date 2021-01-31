@@ -14,7 +14,7 @@ public class Interactable : MonoBehaviour
     protected string keyToDo = Settings.STR_INTERACT_TODO;
 
     protected Character character = null;
-    protected InteractableDataPackage dataPackage = null;
+   
     protected KeyCode keycode = KeyCode.None;
     public QuestProgression[] questProgression;
 
@@ -35,10 +35,7 @@ public class Interactable : MonoBehaviour
         icon = Resources.Load<Sprite>(Settings.PATH_CROSSHAIR_DEFAULT);
     }
 
-    public void SendDataPackage(InteractableDataPackage pDataPackage)
-    {
-        dataPackage = pDataPackage;
-    }
+
 
     public void PassCharacter(Character pCharacter)
     {
@@ -93,7 +90,7 @@ public class Interactable : MonoBehaviour
 
     protected void CheckQuest(QuestProgressorPoint pPoint)
     {
-        for (int i = 0; i < questProgression.Length; i++)
+       /*for (int i = 0; i < questProgression.Length; i++)
         {
             if (questProgression[i].questStep == QuestChain.QuestStep)
             {
@@ -102,7 +99,7 @@ public class Interactable : MonoBehaviour
                     QuestChain.ProgressChain();
                 }
             }
-        }
+        }*/
     }
 
 

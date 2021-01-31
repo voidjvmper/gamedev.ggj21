@@ -1,0 +1,7 @@
+#include "il2cpp-config.h"
+#include "D:\Data Portal\C Program Files\Unity\Editor\2020.2.2f1\Editor\Data\il2cpp\libil2cpp\gc\BoehmGC.cpp"
+#include "D:\Data Portal\C Program Files\Unity\Editor\2020.2.2f1\Editor\Data\il2cpp\libil2cpp\gc\GCHandle.cpp"
+#include "D:\Data Portal\C Program Files\Unity\Editor\2020.2.2f1\Editor\Data\il2cpp\libil2cpp\gc\GarbageCollector.cpp"
+#include "D:\Data Portal\C Program Files\Unity\Editor\2020.2.2f1\Editor\Data\il2cpp\libil2cpp\gc\NullGC.cpp"
+#include "D:\Data Portal\C Program Files\Unity\Editor\2020.2.2f1\Editor\Data\il2cpp\libil2cpp\gc\WriteBarrier.cpp"
+#include "D:\Data Portal\C Program Files\Unity\Editor\2020.2.2f1\Editor\Data\il2cpp\libil2cpp\gc\WriteBarrierValidation.cpp"

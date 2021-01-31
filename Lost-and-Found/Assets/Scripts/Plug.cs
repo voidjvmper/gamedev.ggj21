@@ -12,6 +12,7 @@ public class Plug : HoldItem
 
     [SerializeField]
     private bool isPlugged;
+    private bool isOnDelay = false;
     // Start is called before the first frame update
     protected override void Start()
     {
@@ -63,24 +64,38 @@ public class Plug : HoldItem
     {
         if (rgbody != null)
         {
-            isPlugged = pShouldStick;
-            if (pShouldStick)
+            if (!isOnDelay)
             {
-                rgbody.useGravity = false;
-                rgbody.isKinematic = true;
+                isPlugged = pShouldStick;
 
-                transform.position = pTransform.position;
-                transform.rotation = pTransform.rotation;
- 
+                if (pShouldStick)
+                {
+                    rgbody.useGravity = false;
+                    rgbody.isKinematic = true;
+
+                    transform.position = pTransform.position;
+                    transform.rotation = pTransform.rotation;
+
+                }
+                else
+                {
+                    rgbody.useGravity = true;
+                    rgbody.isKinematic = false;
+                    rgbody.AddForce(Vector3.back * Settings.VAL_PLUG_DISCONNECT_FORCE, ForceMode.Impulse);
+                    //StartCoroutine(PlugDelay());
+                }
             }
-            else
-            {
-                rgbody.useGravity = true;
-                rgbody.isKinematic = false;
-            }
+            
             
         }
         
+    }
+
+    private IEnumerator PlugDelay()
+    {
+        isOnDelay = true;
+        yield return new WaitForSeconds(Settings.VAL_PLUG_DELAY_TIME);
+        isOnDelay = false;
     }
 
     private bool CheckTriggerVolumes(GameObject pGO, out int pID)

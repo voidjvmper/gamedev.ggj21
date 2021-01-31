@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEngine;
+
 
 namespace TheFirstPerson.Helper
 {
@@ -35,3 +37,5 @@ namespace TheFirstPerson.Helper
         }
     }
 }
+
+#endif

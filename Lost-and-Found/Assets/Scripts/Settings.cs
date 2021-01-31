@@ -26,4 +26,7 @@ public static class Settings
     public static readonly string PATH_CROSSHAIR_DEFAULT = "Images/2DnUI/ChevronCrosshair";
     public static readonly string PATH_CROSSHAIR_CIRCLE = "Images/2DnUI/ThinCircleCrosshair";
     public static readonly string PATH_CROSSHAIR_SPEECH = "Images/2DnUI/SpeechCrosshair";
+
+    public static readonly float VAL_PLUG_DISCONNECT_FORCE = 2.0f;
+    public static readonly float VAL_PLUG_DELAY_TIME = 1.0f;
 }
